@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+printf("Pick any number: \n0. Zero\n1. One");
+int choice=0;'
+scanf("%d",&choice);
+switch(choice)
+{
+case 0:
+printf("You have Choosen 0");
+break;
+case 1:
+printf("You have choosen 1");
+break;
+default : printf("Use the default case");
+}
+}
